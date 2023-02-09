@@ -1,0 +1,82 @@
+body {
+    background-image: url('../images/cover-page.jpg');
+    background-repeat: no-repeat;
+}
+
+.u-city {
+    color: #fff;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 32px;
+    padding: 30px 0;
+
+}
+
+.u-city span {
+    color: yellow;
+}
+
+.grid-map {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 660px;
+    gap: 90px;
+}
+
+.contact-text p {
+    color: white;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.info-delivery {
+    height: 900px;
+    width: 1440px;
+}
+
+
+.info-delivery__text h1 {
+    color: #fff;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.info-delivery__text h2 {
+    color: #fff;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.info-delivery__text p {
+    color: #fff;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.delivery-offers {
+    width: 1440px;
+    height: 160px;
+    background-color: #EBEBEB;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.delivery-offers__item {
+    width: 300px;
+    height: 110px;
+}
+
+.delivery-offers__item img {
+    padding: 0 10px;
+}
+
+.delivery-offers__item p {
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 22px;
+    padding: 0 10px;
+}
