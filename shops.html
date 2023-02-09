@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазины</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Slab:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-shops.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="mainmenu d-flex align-c">
+                <div class="mainmenu-left d-flex">
+                    <a href="index.html"><img class="logo" src="images/newLogo.svg" alt="logo"></a>
+                    <ul class="mainmenu-list-left d-flex">
+                        <li><a class="text-line" href="">Магазины</a></li>
+                        <li><a  href="delivery.html">Доставка и оплата</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                    </ul>
+                </div>
+                <div class="mainmenu-right d-flex">
+                    <div class="mainmenu-right__item d-flex margin-r">
+                        <img class="marker" src="images/marker.svg" alt="marker">
+                        <p>
+                            Ваш магазин: Москва, ул. Новая 4
+                            <br>
+                           т.  8 (495) 433-53-33</p>
+                    </div>
+                    <div class="mainmenu-right__item margin-r">
+                        <a href=""><img src="images/favorite.svg" alt="favorite"></a>
+                    </div>
+                    <div class="mainmenu-right__item margin-r">
+                        <a href=""><img src="images/basket.svg" alt="basket"></a>
+                    </div>
+                    <div class="mainmenu-right__item">
+                        <a href=""><img src="images/personal-area.svg" alt="personal-area"></a>
+                    </div>  
+                </div>
+            </nav>
+            <nav class="tabs">
+                <ul class="d-flex align-c">
+                    <li class="tabs__list">
+                        <a href="">Главная</a>
+                    </li>
+                    <li class="tabs__list">
+                        <p>Магазины</p> 
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="city d-flex align-c">
+                    <form class="search-form" action="">
+                        <div>
+                            <label for="">
+                                <input class="search-field" type="search" placeholder="Поиск по городам" value=""> 
+                                <span><img class="search-icon" src="images/search.svg" alt=""></span>
+                            </label>
+                            <button class="search-button" type="submit"><p>ИСКАТЬ</p></button>
+                        </div>
+                    </form>
+                    
+            </div>     
+        </section>
+        <section>
+            <div>
+                <label class="radio" for="">
+                    <input class="radio__input visually-hidden" type="radio" name="param1" value="Москва" >
+                    <span>Москва</span>
+                </label>
+            </div>
+            <div>
+                <label class="radio" for="">
+                    <input class="radio__input visually-hidden" type="radio" name="param1" value="Санкт-Петербург">
+                    <span>Санкт-Петербург</span>
+                </label>
+            </div>
+            <div>
+                <label class="radio" for="">
+                    <input class="radio__input visually-hidden" type="radio" name="param1" value="Нижний Новгород" checked>
+                    <span>Нижний Новгород</span>
+                </label>
+            </div>
+        </section>
+        <section class="about-shop d-flex just-c-c align-c">
+            <div class="about-shop__text">
+                <p>
+                    Полный перечень наших магазинов находится в данном разделе.
+                    <br>
+                    У LogoIpsum один официальный сайт - интернет-магазин www.logoipsum.ru 
+                    <br>
+                    Для электронной почты наша компания использует доменное имя LogoIpsum.ru. Ссылки на любые другие домены говорят о незаконном использовании товарного знака LogoIpsum. 
+                    <br>
+                    Если предлагают связаться с нами по email на другом домене – просим Вас сообщать нам о таких случаях. Товары, проданные таким образом могут быть ввезены в Россию неофициально и являться подделками, без гарантии и сервисной поддержки.
+
+                </p>
+            </div>
+        </section>
+        <footer class="footer d-flex d-flex align-c just-c-c">
+                <div class="footer__item">
+                    <img src="images/newLogo.svg" alt="logo">
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li>
+                          <a href="">О компании</a>  
+                        </li>
+                        <li>
+                          <a href="">Подарочные карты</a>  
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li>
+                            <a href="">Способы оплаты</a> 
+                        </li>
+                        <li>
+                            <a href="">Доставка по России</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li>
+                            <a href="">Условия возврата и обмена</a> 
+                        </li>
+                        <li>
+                            <a href="">Гитарная мастерская</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p>«PlayGuitar» в соц. сетях</p>
+                    <div class="messangers-icon d-flex just-c-c">
+                        <a href=""><img src="images/telegram-icon.png" alt=""></a>
+                        <a href=""><img src="images/ok-icon.png" alt=""></a>
+                        <a href=""><img src="images/vk-icon.png" alt=""></a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    </body>
