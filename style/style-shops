@@ -1,0 +1,56 @@
+body {
+background-image: url('../images/cover-page.jpg');
+background-repeat: no-repeat;
+}
+
+.city {
+    height: 200px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.radio span {
+    color: white;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 36px;
+    border: 1px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.radio__input:checked + span {
+    color: #1C62CD;
+}
+
+.radio span:before {
+    content: "•";
+    padding: 0 15px;
+}
+
+.about-shop {
+    height: 800px;
+}
+
+.about-shop__text {
+    width: 1200px;
+}
+
+.about-shop__text p {
+    color: white;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 32px;
+}
