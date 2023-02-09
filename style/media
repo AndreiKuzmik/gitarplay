@@ -1,0 +1,181 @@
+@media screen and (max-width: 450px){
+
+
+    .mainmenu {
+    height: 100px;
+}
+
+.main-container {
+    padding: 0 60px;
+}
+
+.mainmenu-right, .mainmenu-left{
+    display: none;
+    max-width: 450px;
+
+}
+
+.mainmenu__hamburger1{
+    display: block;
+    background-color:  #131212;
+    color: white;
+}
+
+.mainmenu-mobile {
+    width: 150px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, grey, black);
+    position: absolute;
+    right: 0;
+    top: 80px;
+    z-index: 1;
+    border: 1px solid #fff;
+}
+
+.mainmenu-mobile li {
+    list-style: none;
+}
+
+.mainmenu-mobile a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.mainmenu__hamburger1.is-active + .mainmenu-mobile {
+    display: block;
+}
+
+.reverse {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column-reverse;
+}
+
+.banner-tagline {
+    display: none;
+}
+
+.search-field {
+    width: 250px;
+}
+
+.cont-button{
+    width: 60px;
+    height: 55px;
+    
+  
+}
+
+.search-button {
+    width: 55px;
+    height: 57px;
+}
+
+.search-button p{
+    display: none;
+}
+
+.type-of-guitar {
+    width: 380px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.margin-r {
+    margin-right: 0;
+}
+
+.guitar-block {
+    width: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .guitar-block h3 {
+    display: none;
+    
+} */
+
+.search{
+    display: none;
+}
+
+.search1{
+    display: block;
+    margin: auto;
+   
+}
+.search-icon{
+   position: relative;
+   margin-left: 30px;
+  margin-bottom: 15px;
+  
+}
+
+
+.guitar-block__classic-text {
+    font-size: 14px;
+}
+
+.guitar-block__electro-text {
+    font-size: 14px;
+}
+
+.slideshow-container {
+    display: none;
+}
+
+.offers{
+    height: 750px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.d-grid {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.offers-block {
+    width: 340px;
+    height: 200px;
+}
+
+.photo-celebrities {
+    display: none;
+}
+   
+.footer {
+    background-color: #EBEBEB;
+    width: 340px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.footer__item {
+    margin-right: 0px;
+}
+
+.footer__item ul {
+    width: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
+
+
+
+}
+    
